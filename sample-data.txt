@@ -1,0 +1,6 @@
+id,name,department,salary
+101,John,IT,50000
+102,Smith,HR,45000
+103,David,Finance,60000
+104,Peter,IT,55000
+105,Robert,Sales,48000
