@@ -1,0 +1,14 @@
+
+provider "aws" {
+  region = "ap-southeast-2"
+}
+
+resource "aws_s3_bucket" "my_bucket" {
+
+  bucket = "omkar-terraform-s3-demo-20261114"
+
+  tags = {
+    Name        = "Terraform-S3-Bucket"
+    Environment = "Dev"
+  }
+}
