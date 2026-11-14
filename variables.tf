@@ -8,5 +8,5 @@ variable "aws_region" {
 variable "bucket_name" {
   description = "S3 bucket name"
   type        = string
-  default     = "omkar-terraform-cicd-s3-2026"
+  default     = "omkar-terraform-s3-demo-20261114"
 }
