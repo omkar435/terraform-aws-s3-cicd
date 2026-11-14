@@ -1,4 +1,4 @@
-version: 0.2
+	  version: 0.2
 
 phases:
   install:
@@ -21,8 +21,5 @@ phases:
       - terraform validate
       - echo "Creating Terraform plan"
       - terraform plan -input=false -out=tfplan
-
-  post_build:
-    commands:
       - echo "Applying Terraform"
       - terraform apply -input=false -auto-approve tfplan
